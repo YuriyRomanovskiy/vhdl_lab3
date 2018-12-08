@@ -1,0 +1,28 @@
+Command line:
+   d_latch_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  52460
+
+Sat Dec 01 23:08:44 2018
+
+
+ Elaboration Time: 0.09375 sec
+
+ Current Memory Usage: 5335.04 Meg
+
+ Total Signals          : 7
+ Total Nets             : 4
+ Total Signal Drivers   : 4
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 4
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 364
+
+ Total Simulation Time: 0.109375 sec
+
+ Current Memory Usage: 5335.04 Meg
+
+Sat Dec 01 23:08:55 2018
+

@@ -1,0 +1,10 @@
+Command line:
+   d_latch_enable_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  52538
+
+Sat Dec 01 23:25:32 2018
+
+
+ Elaboration Time: 0.109375 sec

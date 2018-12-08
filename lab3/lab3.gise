@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="lab3.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="Invertor.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="Invertor.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="Invertor.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="Invertor.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="Invertor.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="Invertor.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="Invertor.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="Invertor.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="Invertor.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="Invertor.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Invertor.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="Invertor.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="Invertor.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="Invertor.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="Invertor.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="Invertor.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="Invertor.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="Invertor.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="Invertor.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Invertor_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="Invertor_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="Invertor_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="Invertor_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="Invertor_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="Invertor_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Invertor_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Invertor_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="Invertor_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="Invertor_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Invertor_par.xrpt"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Invertor_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Invertor_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="Invertor_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="Invertor_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Invertor_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="and1_stx_beh.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="bistable.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="bistable.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="bistable.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="bistable.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="bistable.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="bistable.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="bistable.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="bistable.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="bistable.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="bistable.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="bistable_envsettings.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="bistable_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="bistable_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="bistable_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="bistable_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="bistable_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="bistable_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="bistable_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="d_latch_enable_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="d_latch_enable_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="d_latch_enable_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="d_latch_enable_param.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="d_latch_enable_param.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="d_latch_enable_param.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="d_latch_enable_param_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="d_latch_enable_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="d_latch_enable_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="d_latch_enable_tb_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="d_latch_param_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="d_latch_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="d_latch_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="d_latch_tb_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="dff_async_preset_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="dff_async_preset_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="dff_async_preset_tb_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="dff_async_rst.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="dff_async_rst.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="dff_async_rst.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="dff_async_rst_tb2_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="dff_async_rst_tb2_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="nor1_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="nor_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="rs_latch_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="rs_latch_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="rs_latch_tb_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="rs_param_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="rs_param_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="rs_trigger_tb_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="rs_trigger_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="rs_trigger_tb_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="rs_trigger_tb_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1543671707" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1543671707">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1543930793" xil_pn:in_ck="8269986878865840348" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1543930793">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Invertor.vhd"/>
+      <outfile xil_pn:name="and1.vhd"/>
+      <outfile xil_pn:name="bistable.vhd"/>
+      <outfile xil_pn:name="d_latch.vhd"/>
+      <outfile xil_pn:name="d_latch_enable.vhd"/>
+      <outfile xil_pn:name="d_latch_enable_param.vhd"/>
+      <outfile xil_pn:name="d_latch_enable_tb.vhd"/>
+      <outfile xil_pn:name="d_latch_param.vhd"/>
+      <outfile xil_pn:name="d_latch_tb.vhd"/>
+      <outfile xil_pn:name="dff_async_preset.vhd"/>
+      <outfile xil_pn:name="dff_async_preset_tb.vhd"/>
+      <outfile xil_pn:name="dff_async_rst.vhd"/>
+      <outfile xil_pn:name="dff_async_rst_tb2.vhd"/>
+      <outfile xil_pn:name="nor1.vhd"/>
+      <outfile xil_pn:name="rs_latch.vhd"/>
+      <outfile xil_pn:name="rs_latch_tb.vhd"/>
+      <outfile xil_pn:name="rs_param.vhd"/>
+      <outfile xil_pn:name="rs_trigger.vhd"/>
+      <outfile xil_pn:name="rs_trigger_tb.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1543877651" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="6833379904612494893" xil_pn:start_ts="1543877651">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+    </transform>
+    <transform xil_pn:end_ts="1543877651" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="7661034303641461707" xil_pn:start_ts="1543877651">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+    </transform>
+    <transform xil_pn:end_ts="1543689937" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-8045776074381806855" xil_pn:start_ts="1543689937">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1543877651" xil_pn:in_ck="8269986878865840348" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1543877651">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Invertor.vhd"/>
+      <outfile xil_pn:name="and1.vhd"/>
+      <outfile xil_pn:name="bistable.vhd"/>
+      <outfile xil_pn:name="d_latch.vhd"/>
+      <outfile xil_pn:name="d_latch_enable.vhd"/>
+      <outfile xil_pn:name="d_latch_enable_param.vhd"/>
+      <outfile xil_pn:name="d_latch_enable_tb.vhd"/>
+      <outfile xil_pn:name="d_latch_param.vhd"/>
+      <outfile xil_pn:name="d_latch_tb.vhd"/>
+      <outfile xil_pn:name="dff_async_preset.vhd"/>
+      <outfile xil_pn:name="dff_async_preset_tb.vhd"/>
+      <outfile xil_pn:name="dff_async_rst.vhd"/>
+      <outfile xil_pn:name="dff_async_rst_tb2.vhd"/>
+      <outfile xil_pn:name="nor1.vhd"/>
+      <outfile xil_pn:name="rs_latch.vhd"/>
+      <outfile xil_pn:name="rs_latch_tb.vhd"/>
+      <outfile xil_pn:name="rs_param.vhd"/>
+      <outfile xil_pn:name="rs_trigger.vhd"/>
+      <outfile xil_pn:name="rs_trigger_tb.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1543877654" xil_pn:in_ck="8269986878865840348" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-2198351142238556640" xil_pn:start_ts="1543877651">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="rs_trigger_tb_beh.prj"/>
+      <outfile xil_pn:name="rs_trigger_tb_isim_beh.exe"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1543877654" xil_pn:in_ck="7484611699433817410" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-6104081668201800285" xil_pn:start_ts="1543877654">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="rs_trigger_tb_isim_beh.wdb"/>
+    </transform>
+    <transform xil_pn:end_ts="1543667277" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1543667277">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1543671721" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-3099187606733632559" xil_pn:start_ts="1543671721">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1543671721" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-8045776074381806855" xil_pn:start_ts="1543671721">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1543667277" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1543667277">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1543671721" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="65019839562900019" xil_pn:start_ts="1543671721">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1543667277" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="3206529612922900429" xil_pn:start_ts="1543667277">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1543671721" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-4358038757975086397" xil_pn:start_ts="1543671721">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1543931019" xil_pn:in_ck="-7861002586827109252" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="-158478901756238954" xil_pn:start_ts="1543931005">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Invertor.ngr"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="bistable.lso"/>
+      <outfile xil_pn:name="bistable.ngc"/>
+      <outfile xil_pn:name="bistable.ngr"/>
+      <outfile xil_pn:name="bistable.prj"/>
+      <outfile xil_pn:name="bistable.stx"/>
+      <outfile xil_pn:name="bistable.syr"/>
+      <outfile xil_pn:name="bistable.xst"/>
+      <outfile xil_pn:name="bistable_stx_beh.prj"/>
+      <outfile xil_pn:name="bistable_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1543777122" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-8877491894867158946" xil_pn:start_ts="1543777121">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1543777138" xil_pn:in_ck="-5872255739543688277" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-4409344370731636342" xil_pn:start_ts="1543777122">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+      <outfile xil_pn:name="bistable.bld"/>
+      <outfile xil_pn:name="bistable.ngd"/>
+      <outfile xil_pn:name="bistable_ngdbuild.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1543777347" xil_pn:in_ck="-4204366224590703315" xil_pn:name="TRANEXT_map_virtex7" xil_pn:prop_ck="2100985583056581773" xil_pn:start_ts="1543777322">
+      <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+      <outfile xil_pn:name="bistable_map.map"/>
+      <outfile xil_pn:name="bistable_map.mrp"/>
+      <outfile xil_pn:name="bistable_map.ngm"/>
+    </transform>
+    <transform xil_pn:end_ts="1543667683" xil_pn:in_ck="3462592345367073337" xil_pn:name="TRANEXT_par_virtex5" xil_pn:prop_ck="-2283627392121029586" xil_pn:start_ts="1543667634">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputRemoved"/>
+    </transform>
+    <transform xil_pn:end_ts="1543667683" xil_pn:in_ck="3863671079104803484" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416185" xil_pn:start_ts="1543667664">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputRemoved"/>
+    </transform>
+    <transform xil_pn:end_ts="1543777391" xil_pn:in_ck="3462592345367073337" xil_pn:name="TRAN_postMapSimModel" xil_pn:prop_ck="-3058819189678992055" xil_pn:start_ts="1543777388">
+      <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+    </transform>
+  </transforms>
+
+</generated_project>

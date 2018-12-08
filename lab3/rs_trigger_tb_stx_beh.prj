@@ -1,0 +1,3 @@
+vhdl isim_temp "nor1.vhd"
+vhdl isim_temp "rs_trigger.vhd"
+vhdl isim_temp "rs_trigger_tb.vhd"

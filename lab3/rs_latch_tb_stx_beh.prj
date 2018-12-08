@@ -1,0 +1,3 @@
+vhdl isim_temp "nor1.vhd"
+vhdl isim_temp "rs_latch.vhd"
+vhdl isim_temp "rs_latch_tb.vhd"

@@ -1,0 +1,4 @@
+vhdl isim_temp "nor1.vhd"
+vhdl isim_temp "Invertor.vhd"
+vhdl isim_temp "d_latch.vhd"
+vhdl isim_temp "d_latch_tb.vhd"

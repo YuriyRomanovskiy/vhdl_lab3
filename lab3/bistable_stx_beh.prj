@@ -1,0 +1,2 @@
+vhdl isim_temp "Invertor.vhd"
+vhdl isim_temp "bistable.vhd"

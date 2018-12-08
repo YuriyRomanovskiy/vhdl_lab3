@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "C:/Users/brand/Documents/folder/lab3/Invertor.xst" -ofn "C:/Users/brand/Documents/folder/lab3/Invertor.syr" 
+xst -intstyle ise -ifn "C:/Users/brand/Documents/folder/lab3/Invertor.xst" -ofn "C:/Users/brand/Documents/folder/lab3/Invertor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 Invertor.ngc Invertor.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Invertor_map.ncd Invertor.ngd Invertor.pcf 
+par -w -intstyle ise -ol high -mt off Invertor_map.ncd Invertor.ncd Invertor.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Invertor.twx Invertor.ncd -o Invertor.twr Invertor.pcf 
