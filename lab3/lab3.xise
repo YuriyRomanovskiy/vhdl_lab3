@@ -16,11 +16,11 @@
 
   <files>
     <file xil_pn:name="Invertor.vhd" xil_pn:type="FILE_VHDL">
-      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="1"/>
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="2"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="1"/>
     </file>
     <file xil_pn:name="bistable.vhd" xil_pn:type="FILE_VHDL">
-      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="2"/>
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="2"/>
     </file>
     <file xil_pn:name="rs_latch.vhd" xil_pn:type="FILE_VHDL">
@@ -28,7 +28,7 @@
       <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
     </file>
     <file xil_pn:name="nor1.vhd" xil_pn:type="FILE_VHDL">
-      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="1"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
     </file>
     <file xil_pn:name="rs_latch_tb.vhd" xil_pn:type="FILE_VHDL">
@@ -42,7 +42,7 @@
       <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
     </file>
     <file xil_pn:name="d_latch.vhd" xil_pn:type="FILE_VHDL">
-      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="3"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
     </file>
     <file xil_pn:name="d_latch_tb.vhd" xil_pn:type="FILE_VHDL">
@@ -83,10 +83,6 @@
       <association xil_pn:name="PostRouteSimulation" xil_pn:seqID="108"/>
       <association xil_pn:name="PostTranslateSimulation" xil_pn:seqID="108"/>
     </file>
-    <file xil_pn:name="dff_async_preset.vhd" xil_pn:type="FILE_VHDL">
-      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
-    </file>
     <file xil_pn:name="dff_async_preset_tb.vhd" xil_pn:type="FILE_VHDL">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
       <association xil_pn:name="PostMapSimulation" xil_pn:seqID="114"/>
@@ -97,11 +93,71 @@
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
     </file>
+    <file xil_pn:name="dff.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="127"/>
+    </file>
+    <file xil_pn:name="dff_tb.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
+      <association xil_pn:name="PostMapSimulation" xil_pn:seqID="128"/>
+      <association xil_pn:name="PostRouteSimulation" xil_pn:seqID="128"/>
+      <association xil_pn:name="PostTranslateSimulation" xil_pn:seqID="128"/>
+    </file>
+    <file xil_pn:name="dff_enable.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="135"/>
+    </file>
+    <file xil_pn:name="dff_enable_tb.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
+      <association xil_pn:name="PostMapSimulation" xil_pn:seqID="126"/>
+      <association xil_pn:name="PostRouteSimulation" xil_pn:seqID="126"/>
+      <association xil_pn:name="PostTranslateSimulation" xil_pn:seqID="126"/>
+    </file>
     <file xil_pn:name="rs_trigger_tb.vhd" xil_pn:type="FILE_VHDL">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="PostMapSimulation" xil_pn:seqID="120"/>
-      <association xil_pn:name="PostRouteSimulation" xil_pn:seqID="120"/>
-      <association xil_pn:name="PostTranslateSimulation" xil_pn:seqID="120"/>
+      <association xil_pn:name="PostMapSimulation" xil_pn:seqID="132"/>
+      <association xil_pn:name="PostRouteSimulation" xil_pn:seqID="132"/>
+      <association xil_pn:name="PostTranslateSimulation" xil_pn:seqID="132"/>
+    </file>
+    <file xil_pn:name="jk_trigger.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="139"/>
+    </file>
+    <file xil_pn:name="jk_trigger_tb.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
+      <association xil_pn:name="PostMapSimulation" xil_pn:seqID="140"/>
+      <association xil_pn:name="PostRouteSimulation" xil_pn:seqID="140"/>
+      <association xil_pn:name="PostTranslateSimulation" xil_pn:seqID="140"/>
+    </file>
+    <file xil_pn:name="t_trigger.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="146"/>
+    </file>
+    <file xil_pn:name="t_trigger_tb.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
+      <association xil_pn:name="PostMapSimulation" xil_pn:seqID="148"/>
+      <association xil_pn:name="PostRouteSimulation" xil_pn:seqID="148"/>
+      <association xil_pn:name="PostTranslateSimulation" xil_pn:seqID="148"/>
+    </file>
+    <file xil_pn:name="d_latch_async_set.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="145"/>
+    </file>
+    <file xil_pn:name="d_latch_async_set_tb.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
+      <association xil_pn:name="PostMapSimulation" xil_pn:seqID="146"/>
+      <association xil_pn:name="PostRouteSimulation" xil_pn:seqID="146"/>
+      <association xil_pn:name="PostTranslateSimulation" xil_pn:seqID="146"/>
+    </file>
+    <file xil_pn:name="d_latch_async_preset.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="152"/>
+    </file>
+    <file xil_pn:name="d_latch_async_preset_tb.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
+      <association xil_pn:name="PostMapSimulation" xil_pn:seqID="154"/>
+      <association xil_pn:name="PostRouteSimulation" xil_pn:seqID="154"/>
+      <association xil_pn:name="PostTranslateSimulation" xil_pn:seqID="154"/>
     </file>
   </files>
 
@@ -413,7 +469,7 @@
     <!--                                                                                  -->
     <!-- The following properties are for internal use only. These should not be modified.-->
     <!--                                                                                  -->
-    <property xil_pn:name="PROP_BehavioralSimTop" xil_pn:value="Architecture|bistable|Behavioral" xil_pn:valueState="non-default"/>
+    <property xil_pn:name="PROP_BehavioralSimTop" xil_pn:value="Architecture|d_latch|Struct" xil_pn:valueState="non-default"/>
     <property xil_pn:name="PROP_DesignName" xil_pn:value="lab3" xil_pn:valueState="non-default"/>
     <property xil_pn:name="PROP_DevFamilyPMName" xil_pn:value="artix7" xil_pn:valueState="default"/>
     <property xil_pn:name="PROP_FPGAConfiguration" xil_pn:value="FPGAConfiguration" xil_pn:valueState="default"/>

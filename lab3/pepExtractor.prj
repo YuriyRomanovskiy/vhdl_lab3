@@ -1,2 +1,1 @@
-work	"nor1.vhd"
-work	"rs_trigger.vhd"
+work	"d_latch_async_preset.vhd"

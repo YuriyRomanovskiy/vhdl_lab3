@@ -1,0 +1,2 @@
+vhdl isim_temp "d_latch_async_preset.vhd"
+vhdl isim_temp "d_latch_async_preset_tb.vhd"

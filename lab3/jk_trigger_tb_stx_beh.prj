@@ -1,0 +1,2 @@
+vhdl isim_temp "jk_trigger.vhd"
+vhdl isim_temp "jk_trigger_tb.vhd"

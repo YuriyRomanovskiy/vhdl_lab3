@@ -40,19 +40,14 @@ architecture Behavioral of dff_async_rst is
 
 begin
 
-process (clk, reset) begin
-
-if (reset = '0') then
-
-	q <= '0';
-
-elsif (clk'event and clk = '1') then
-
-	q <= data;
-
-end if;
-
-end process;
+process(data, reset, clk)
+	begin
+		if reset = '1' then
+			q <= '0';
+		elsif rising_edge(clk) then
+			q <= data;
+		end if;
+	end process;
 
 end Behavioral;
 

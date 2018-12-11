@@ -2,7 +2,7 @@
 -- Company: 
 -- Engineer: 
 -- 
--- Create Date:    01:50:50 12/04/2018 
+-- Create Date:    15:57:45 12/09/2018 
 -- Design Name: 
 -- Module Name:    rs_trigger - Behavioral 
 -- Project Name: 
@@ -32,27 +32,27 @@ use IEEE.STD_LOGIC_1164.ALL;
 entity rs_trigger is
     Port ( r : in  STD_LOGIC;
            s : in  STD_LOGIC;
-           q : out  STD_LOGIC;
-           nq : out  STD_LOGIC);
+           clk : in  STD_LOGIC;
+           q : out  STD_LOGIC);
 end rs_trigger;
 
 architecture Behavioral of rs_trigger is
 
-component nor1
-	port (A : in  STD_LOGIC;
-         B : in  STD_LOGIC;
-         F : out  STD_LOGIC);
-end component;
-
-signal t1, t2 : STD_LOGIC;
-
-
 begin
-U1 : nor1
-	port map (t2, R, t1);
-nQ <= t1;
-U2 : nor1
-	port map (t1, S, t2);
-Q <= t2;
+
+	process(r, s, clk)
+	begin
+		if rising_edge(clk) then
+			if (r = '1' and s = '1') then
+				q <= 'Z';
+			elsif r = '1' then
+				q <= '0';
+			elsif s = '1' then
+				q <= '1';
+			end if; 
+		end if;
+	end process;
+
+
 end Behavioral;
 

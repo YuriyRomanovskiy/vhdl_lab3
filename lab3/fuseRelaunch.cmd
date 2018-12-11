@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -lib "secureip" -o "C:/Users/brand/Documents/folder/lab3/rs_trigger_tb_isim_beh.exe" -prj "C:/Users/brand/Documents/folder/lab3/rs_trigger_tb_beh.prj" "work.rs_trigger_tb" 
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/brand/Documents/folder/lab3/rs_param_isim_beh.exe" -prj "C:/Users/brand/Documents/folder/lab3/rs_param_beh.prj" "work.rs_param" 

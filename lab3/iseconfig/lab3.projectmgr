@@ -45,9 +45,9 @@
          <ClosedNodesVersion>1</ClosedNodesVersion>
       </ClosedNodes>
       <SelectedItems/>
-      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="vertical" >1</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000000000000000100000000000000000000000000000000000002e3000000040101000100000000000000000000000064ffffffff0000008100000000000000040000003d00000001000000000000002100000001000000000000005d0000000100000000000002280000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000000000000000100000000000000000000000000000000000002d2000000040101000100000000000000000000000064ffffffff0000008100000000000000040000003d00000001000000000000002100000001000000000000005d0000000100000000000002170000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem>Invertor.vhd</CurrentItem>
    </ItemView>
@@ -76,7 +76,7 @@
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000166000000010000000100000000000000000000000064ffffffff000000810000000000000001000001660000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000c9000000010000000100000000000000000000000064ffffffff000000810000000000000001000000c90000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem></CurrentItem>
    </ItemView>
@@ -86,6 +86,8 @@
          <ClosedNode>/bistable - Behavioral C:|Users|brand|Documents|folder|lab3|bistable.vhd</ClosedNode>
          <ClosedNode>/bistable - Struct C:|Users|brand|Documents|folder|lab3|bistable.vhd</ClosedNode>
          <ClosedNode>/d_latch - Struct C:|Users|brand|Documents|folder|lab3|d_latch.vhd</ClosedNode>
+         <ClosedNode>/d_latch_async_preset_tb - behavior C:|Users|brand|Documents|folder|lab3|d_latch_async_preset_tb.vhd</ClosedNode>
+         <ClosedNode>/d_latch_async_set_tb - behavior C:|Users|brand|Documents|folder|lab3|d_latch_async_set_tb.vhd</ClosedNode>
          <ClosedNode>/d_latch_enable - Struct C:|Users|brand|Documents|folder|lab3|d_latch_enable.vhd</ClosedNode>
          <ClosedNode>/d_latch_enable_param - Struct C:|Users|brand|Documents|folder|lab3|d_latch_enable_param.vhd</ClosedNode>
          <ClosedNode>/d_latch_enable_tb - behavior C:|Users|brand|Documents|folder|lab3|d_latch_enable_tb.vhd</ClosedNode>
@@ -93,17 +95,21 @@
          <ClosedNode>/d_latch_tb - behavior C:|Users|brand|Documents|folder|lab3|d_latch_tb.vhd</ClosedNode>
          <ClosedNode>/dff_async_preset_tb - behavior C:|Users|brand|Documents|folder|lab3|dff_async_preset_tb.vhd</ClosedNode>
          <ClosedNode>/dff_async_rst_tb2 - behavior C:|Users|brand|Documents|folder|lab3|dff_async_rst_tb2.vhd</ClosedNode>
+         <ClosedNode>/dff_enable_tb - behavior C:|Users|brand|Documents|folder|lab3|dff_enable_tb.vhd</ClosedNode>
+         <ClosedNode>/dff_tb - behavior C:|Users|brand|Documents|folder|lab3|dff_tb.vhd</ClosedNode>
+         <ClosedNode>/jk_trigger_tb - behavior C:|Users|brand|Documents|folder|lab3|jk_trigger_tb.vhd</ClosedNode>
          <ClosedNode>/rs_latch - Struct C:|Users|brand|Documents|folder|lab3|rs_latch.vhd</ClosedNode>
          <ClosedNode>/rs_latch_tb - behavior C:|Users|brand|Documents|folder|lab3|rs_latch_tb.vhd</ClosedNode>
          <ClosedNode>/rs_param - Struct C:|Users|brand|Documents|folder|lab3|rs_param.vhd</ClosedNode>
          <ClosedNode>/rs_trigger_tb - behavior C:|Users|brand|Documents|folder|lab3|rs_trigger_tb.vhd</ClosedNode>
+         <ClosedNode>/t_trigger_tb - behavior C:|Users|brand|Documents|folder|lab3|t_trigger_tb.vhd</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
          <SelectedItem>d_latch_enable - Struct (C:/Users/brand/Documents/folder/lab3/d_latch_enable.vhd)</SelectedItem>
       </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >2</ScrollbarPosition>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000192000000020000000000000000000000000200000064ffffffff000000810000000300000002000001920000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000019b000000020000000000000000000000000200000064ffffffff0000008100000003000000020000019b0000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem>d_latch_enable - Struct (C:/Users/brand/Documents/folder/lab3/d_latch_enable.vhd)</CurrentItem>
    </ItemView>
@@ -113,13 +119,13 @@
          <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem/>
+         <SelectedItem></SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000166000000010000000100000000000000000000000064ffffffff000000810000000000000001000001660000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000c9000000010000000100000000000000000000000064ffffffff000000810000000000000001000000c90000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem/>
+      <CurrentItem></CurrentItem>
    </ItemView>
    <SourceProcessView>000000ff0000000000000002000001510000009b01000000050100000002</SourceProcessView>
    <CurrentView>Behavioral Simulation</CurrentView>
@@ -132,7 +138,7 @@
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000166000000010000000100000000000000000000000064ffffffff000000810000000000000001000001660000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000138000000010000000100000000000000000000000064ffffffff000000810000000000000001000001380000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem>Behavioral Check Syntax</CurrentItem>
    </ItemView>

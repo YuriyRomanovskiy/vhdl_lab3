@@ -58,6 +58,8 @@ ARCHITECTURE behavior OF d_latch_enable_tb IS
    signal nq : std_logic;
    -- No clocks detected in port list. Replace <clock> below with 
    -- appropriate port name 
+	
+	constant clock_period : time := 10 ns;
  
 BEGIN
  

@@ -30,6 +30,10 @@ use IEEE.STD_LOGIC_1164.ALL;
 --use UNISIM.VComponents.all;
 
 entity d_latch_param is
+ 	Generic (
+		I: time := 1 ns;
+		T: time := 5 ns
+	);
     Port ( d : in  STD_LOGIC;
            q : out  STD_LOGIC;
            nq : out  STD_LOGIC);
@@ -52,17 +56,20 @@ begin
 	U1: invertor port map (a => d, f => t3);
 	U2: nor1 port map (a => d, b => t2, f => t1);
 	U3: nor1 port map (a => t3, b => t1, f => t2);
-	q <= t2 after 5 ns;
-	nq <= t1 after 7 ns;
+	q <= t2 after T;
+	nq <= t1 after T;
 end Struct;
 
 architecture Behavioral of d_latch_param is
-	signal q_t: std_logic;
+	signal t1, t2, i: std_logic;
 begin
 
-	q_t <= d when q_t /= d;
-	q <= q_t after 5 ns;
-	nq <= not q_t after 7 ns;
+	i <= not d;
+	t2 <= d nor t1 after I;
+	t1 <= i nor t2 after I;
+	nq <= transport t1 after T;
+	q <= transport t2 after T;
 
 end Behavioral;
+
 

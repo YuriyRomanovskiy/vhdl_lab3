@@ -30,13 +30,17 @@ use IEEE.STD_LOGIC_1164.ALL;
 --use UNISIM.VComponents.all;
 
 entity rs_param is
+	Generic (
+		I: time := 1 ns;
+		T: time := 5 ns
+	);
     Port ( r : in  STD_LOGIC;
            s : in  STD_LOGIC;
            q : out  STD_LOGIC;
            nq : out  STD_LOGIC);
 end rs_param;
 
-architecture Struct of rs_param is
+architecture Behaviour of rs_param is
 	component nor1 
 		port (
 			a, b: in std_logic;
@@ -45,10 +49,12 @@ architecture Struct of rs_param is
 	signal t1, t2 : std_logic;
 begin
 
-	U1: nor1 port map (a => s, b => t2, f => t1);
-	U2: nor1 port map (a => r, b => t1, f => t2);
-	nq <= transport t1 after 3 ns;
-	q <= transport t2 after 2 ns;
+	---U1: nor1 port map (a => s, b => t2, f => t1) after I;
+	t1 <= s nor t2 after I;
+	---U2: nor1 port map (a => r, b => t1, f => t2) after I;
+	t2 <= r nor  t1 after I;
+	nq <= transport t1 after T;
+	q <= transport t2 after T;
 
-end Struct;
+end Behaviour;
 

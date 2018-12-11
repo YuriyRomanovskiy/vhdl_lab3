@@ -57,12 +57,14 @@ begin
 end Struct;
 
 architecture Behavioral of d_latch is
-signal t: std_logic;
+	signal t1, t2, i: std_logic;
 begin
 
-	t <= D when t /= D;
-	Q   <= t;
-	nQ  <= not t;
+	i <= not d;
+	t2 <= d nor t1;
+	t1 <= i nor t2;
+	nq <= t1;
+	q <= t2;
 
 end Behavioral;
 

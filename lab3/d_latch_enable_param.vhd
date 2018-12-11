@@ -30,6 +30,10 @@ use IEEE.STD_LOGIC_1164.ALL;
 --use UNISIM.VComponents.all;
 
 entity d_latch_enable_param is
+	 Generic (
+			I: time := 1 ns;
+			T: time := 5 ns
+	 );
     Port ( d : in  STD_LOGIC;
            e : in  STD_LOGIC;
            q : out  STD_LOGIC;
@@ -60,8 +64,8 @@ begin
 	U3: and1 port map (a => d_t, b => e, f => da_t);
 	U4: nor1 port map (a => ea_t, b => n_t2, f => n_t1);
 	U5: nor1 port map (a => da_t, b => n_t1, f => n_t2);
-	q <= transport n_t2 after 3 ns;
-	nq <= transport n_t1 after 4 ns;
+	q <= transport n_t2 after T;
+	nq <= transport n_t1 after T;
 end Struct;
 
 architecture Behavioral of d_latch_enable_param is
@@ -69,8 +73,8 @@ signal data : std_logic;
 begin
 
 	data <= d when (e = '1') else data;
-   q <= transport data after 3 ns;
-	nq <= transport not data after 4 ns;
+   q <= transport data after T;
+	nq <= transport not data after T;
 
 end Behavioral;
 
